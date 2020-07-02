@@ -1,0 +1,10 @@
+baidu:
+  desc: 百度首页
+  url: 'https://www.baidu.com/'
+  elements:
+    搜索框: [id, kw]
+    搜索按钮: [id, kw]
+  actions:
+    搜索:
+      - 输入 搜索框 韩志超
+      - 点击 搜索按钮
